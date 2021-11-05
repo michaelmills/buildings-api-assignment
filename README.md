@@ -10,8 +10,8 @@
    Site by id -> http://localhost:8080/sites/{id}  
    i.e. http://localhost:8080/site/1  
    
-   Site by state -> http://localhost:8080/sites/{state}  
-   i.e. http://localhost:8080/sites/CA
+   Site by state -> http://localhost:8080/sites?state={state}    
+   i.e. http://localhost:8080/sites?state=CA
 
 ---
 
