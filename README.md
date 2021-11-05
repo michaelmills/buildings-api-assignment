@@ -1,5 +1,20 @@
 # Buildings API Assignment
 
+## Start
+1. Run: mvn clean install
+2. Run: docker build -t buildings-api-assignment .
+3. docker run -p8080:8080 buildings-api-assignment
+4. Navigate to http://localhost:8080/
+5. All sites -> http://localhost:8080/sites  
+  
+   Site by id -> http://localhost:8080/sites/{id}  
+   i.e. http://localhost:8080/site/1  
+   
+   Site by state -> http://localhost:8080/sites/{state}  
+   i.e. http://localhost:8080/sites/CA
+
+---
+
 ## Introduction
 
 This project is intended to test your Java skills with a focus on building web APIs. Refer to the email sent to you on
